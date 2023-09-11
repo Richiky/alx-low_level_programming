@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - Entry point
  * Description: prints char below 10
@@ -8,11 +7,12 @@
 
 int main(void)
 {
-	int a;
+	int n = 122;
 
-	for (a = 0; a < 10; a++)
+	while ( n >= 97)
 	{
-		putchar(a + '0');
+		putchar(n);
+		n--;
 	}
 	putchar('\n');
 	return (0);

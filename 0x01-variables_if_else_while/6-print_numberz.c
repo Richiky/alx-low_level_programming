@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - program that prints the alphabet in lowercase and upper case
  *
@@ -8,15 +9,11 @@
 
 int main(void)
 {
-    char letter = 'z'; 
+        int n;
 
-    while (letter >= 'a')
-    {
-        putchar(letter);
-        letter--;
-    }
-
-    putchar('\n'); 
-    return 0;
+        for (n = 0; n <= 10; n++)
+        {
+                putchar(n + 48);
+        }
+        return (0);
 }
-
