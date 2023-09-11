@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - Prints numbers from 0 to 9.
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-        int n;
+	int i;
 
-        for (n = 0; n <= 10; n++)
-        {
-                putchar(n + 48);
-        }
-        return (0);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
