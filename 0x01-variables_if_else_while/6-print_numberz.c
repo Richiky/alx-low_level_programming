@@ -9,16 +9,11 @@
 
 int main(void)
 {
-	char letter;
+	int n;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
+	for (n = 0; n <= 9; n++)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		putchar(n + 48);
 	}
-
-	putchar('\n');
-
 	return (0);
 }
